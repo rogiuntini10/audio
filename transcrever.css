@@ -1,0 +1,23 @@
+
+.microphone-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color:green;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.microphone-button.active {
+    background-color: #141313;
+    transform: scale(1.05);
+}
+
+
+.microphone-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
